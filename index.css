@@ -1,0 +1,58 @@
+/*
+Folha de Estilo site
+Viagens pelo mundo
+*/
+body{
+  background: CornflowerBlue;
+  width: 800px;
+  margin: auto;
+}
+
+h1{
+  color: DarkGreen;
+  text-align: center;
+}
+
+p{
+  color: black;
+  border: 1px black;
+  padding: 7px;
+}
+
+.main-principal{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: 1fr 1fr 1fr 1fr;
+  border: 1px solid black;
+  background: LightSteelBlue;
+  grid-gap: 40px;
+  padding: 10px;
+}
+
+.t1{
+  padding-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: DarkRed;
+}
+
+.t2{
+  padding-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: blue;
+}
+
+.t3{
+  padding-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+}
+
+.t4{
+  padding-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: Navy;
+}

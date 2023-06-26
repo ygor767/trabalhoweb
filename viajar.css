@@ -1,0 +1,29 @@
+/*
+Folha de Estilo site
+pq viajar
+*/
+body{
+ background: LightBlue;
+  width: 800px;
+  margin: auto;
+}
+
+h1{
+  color: black;
+  text-align: center;
+}
+
+p{
+  color: black;
+  border: 1px black;
+}
+
+.main-an{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: 1fr;
+}
+
+h3{
+  text-align: center;
+}

@@ -1,0 +1,37 @@
+/*
+Folha de Estilo site
+europa
+*/
+body{
+  background: LightSalmon;
+  width: 800px;
+  margin: auto;
+}
+
+h1{
+  color: black;
+  text-align: center;
+}
+
+p{
+  color: black;
+  border: 1px black;
+}
+
+.main-an{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: 1fr;
+}
+
+.t1{
+  padding-top: 10px;
+  font-size: 1rem;
+  color: black;
+}
+
+.imghom{
+  align-items: left;
+  padding-left: 10px;
+  margin-left: 10px;
+}
